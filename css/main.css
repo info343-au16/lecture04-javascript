@@ -1,1 +1,36 @@
 /* CSS goes here */
+
+/* mobile device rules*/
+header {
+    background-color: red;
+}
+
+/* large screen */
+@media (min-width:768px){
+    header {
+        background-color: blue;
+    }
+}
+
+@media (min-width:992px){
+    header {
+        background-color: green;
+    }
+}
+
+
+main {
+    /* mobile*/
+}
+
+@media (min-width:768px){
+    main {
+        /* large */
+    }
+}
+
+@media (min-width:992px){
+    main {
+        background-color: green;
+    }
+}
